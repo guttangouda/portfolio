@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #333;
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  nav {
+    display: flex;
+    gap: 1rem;
+
+    button {
+      background-color: #1e293b;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &.active {
+        background-color: #0f766e;
+      }
+
+      &:hover {
+        background-color: #334155;
+      }
+    }
+  }
+}

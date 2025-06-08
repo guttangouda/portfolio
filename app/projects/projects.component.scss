@@ -1,0 +1,36 @@
+.projects {
+  padding: 2rem;
+  color: white;
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    .project {
+      background-color: #1e293b;
+      padding: 1rem;
+      border-radius: 10px;
+      width: 300px;
+
+      h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+        color: #cbd5e1;
+      }
+
+      &:hover {
+        background-color: #0f766e;
+      }
+    }
+  }
+}
