@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { LayoutComponent } from "../layout/layout.component";
+import { Component } from '@angular/core'
 import { trigger, transition, style, animate, query, stagger } from '@angular/animations';
 
 @Component({
