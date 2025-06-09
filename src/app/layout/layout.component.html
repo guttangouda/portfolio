@@ -1,9 +1,9 @@
 <header class="header">
-    <h1 class="logo">Guttan Gouda</h1>
-    <nav>
-      <button (click)="OnClickHome()" routerLinkActive="active">Home</button>
-      <button (click)="OnClickAbout()" routerLinkActive="active">About</button>
-      <button (click)="OnClickProjects()">Projects</button>
-      <button (click)="OnClickSkills()">Skills</button>
-    </nav>
-  </header>
+  <div class="logo">Guttan <span>Gouda</span></div>
+  <nav class="nav-links">
+    <a routerLink="/home" routerLinkActive="active" (click)="OnClickHome()">Home</a>
+    <a routerLink="/about" routerLinkActive="active" (click)="OnClickAbout()">About</a>
+    <a routerLink="/projects" routerLinkActive="active" (click)="OnClickProjects()">Projects</a>
+    <a routerLink="/skills" routerLinkActive="active" (click)="OnClickSkills()">Skills</a>
+  </nav>
+</header>
